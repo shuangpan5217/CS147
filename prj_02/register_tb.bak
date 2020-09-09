@@ -1,0 +1,53 @@
+// Name: proj_2_tb.v
+// Module: DA_VINCI_TB
+// 
+//
+// Monitors:  DATA_W: Data to be written at address ADDR_W
+//            ADDR_W : Address of the memory location to be accessed
+//	      ADDR_R1: Memory location to be read at ADDR_R1
+//	      ARRR_R2: Memory location to be read at ADDR_R2
+//            READ : Read signal
+//            WRITE: Write signal
+//
+// Input:   CLK  : Clock signal
+//          RST  : Reset signal
+//	    DATA_R1: Data at R1 address
+//	    DATA_R2: Data at R2 address
+//
+// Notes: - Testbench for  register system
+//
+// Revision History:
+//
+// Version	Date		Who		email			note
+//------------------------------------------------------------------------------------------
+// 1.0          10/18/2019      Shuang Pan	shuang.pan@sjsu.edu	Test bench for regs
+//------------------------------------------------------------------------------------------
+`include "prj_definition.v"
+module register_tb;
+// read address
+reg [`REG_ADDR_INDEX_LIMIT:0] ADDR_R1;
+reg [`REG_ADDR_INDEX_LIMIT:0] ADDR_R2;
+//write
+reg [`REG_ADDR_INDEX_LIMIT:0] ADDR_W;
+reg [`REG_ADDR_INDEX_LIMIT:0] DATA_W;
+
+// reset
+reg READ, WRITE, RST;
+// data register
+integer i; // index for memory operation
+integer no_of_test, no_of_pass;
+
+// wire lists
+wire  CLK;
+wire [`DATA_INDEX_LIMIT:0] DATA_R1;
+wire [`DATA_INDEX_LIMIT:0] DATA_R2;
+
+// Clock generator instance
+CLK_GENERATOR clk_gen_inst(.CLK(CLK));
+
+// Register Instance
+REGISTER_FILE_32x32 reg_inst(.DATA_R1(DATA_R1), .DATA_R2(DATA_R2), .ADDR_R1(ADDR_R1), .ADDR_R2(ADDR_R2), 
+                      .DATA_W(DATA_W), .ADDR_W(ADDR_W), .READ(READ), .WRITE(WRITE), .CLK(CLK), .RST(RST));
+
+
+endmodule;

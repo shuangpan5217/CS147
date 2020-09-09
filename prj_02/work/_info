@@ -1,0 +1,294 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+vALU
+Z0 !s110 1571853274
+!i10b 1
+!s100 1OJk7K]@P[:nSASd[28;d2
+IOD9T255MWZMggjVVlP1NA0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/pansh/Downloads/prj_02
+w1569815991
+8C:/Users/pansh/Downloads/prj_02/alu.v
+FC:/Users/pansh/Downloads/prj_02/alu.v
+L0 25
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1571853274.000000
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/alu.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+n@a@l@u
+valu_tb
+R0
+!i10b 1
+!s100 KPYZRFJPj<=UCT5=5YP@L3
+I;<oYE6h7f`[DmfjDD[l@;2
+R1
+R2
+w1570861304
+Z6 8C:/Users/pansh/Downloads/prj_02/alu_tb.v
+Z7 FC:/Users/pansh/Downloads/prj_02/alu_tb.v
+Z8 L0 27
+R3
+r1
+!s85 0
+31
+R4
+Z9 !s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/alu_tb.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/alu_tb.v|
+!s101 -O0
+!i113 1
+R5
+vCLK_GENERATOR
+R0
+!i10b 1
+!s100 I`I=T4aaeE09lSRDFRN971
+I6RB544zIZ1nUXn?gmcN6L1
+R1
+R2
+Z11 w1569378303
+8C:/Users/pansh/Downloads/prj_02/clk_gen.v
+FC:/Users/pansh/Downloads/prj_02/clk_gen.v
+L0 16
+R3
+r1
+!s85 0
+31
+Z12 !s108 1571853273.000000
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/clk_gen.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/clk_gen.v|
+!s101 -O0
+!i113 1
+R5
+n@c@l@k_@g@e@n@e@r@a@t@o@r
+vCONTROL_UNIT
+Z13 !s110 1571853273
+!i10b 1
+!s100 KMGSbiHD1?Xkd[Q]V?BKZ2
+IXHjJU>f:IXC@cYKL5_VzG3
+R1
+R2
+Z14 w1571610623
+Z15 8C:/Users/pansh/Downloads/prj_02/control_unit.v
+Z16 FC:/Users/pansh/Downloads/prj_02/control_unit.v
+L0 34
+R3
+r1
+!s85 0
+31
+R12
+Z17 !s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/control_unit.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/control_unit.v|
+!s101 -O0
+!i113 1
+R5
+n@c@o@n@t@r@o@l_@u@n@i@t
+vDA_VINCI
+R13
+!i10b 1
+!s100 @Cfmb0Z_T`MjRPoLI@k6C0
+IFm4:Ed7lWHgS6]UZ6mnfe0
+R1
+R2
+R11
+8C:/Users/pansh/Downloads/prj_02/da_vinci.v
+FC:/Users/pansh/Downloads/prj_02/da_vinci.v
+Z19 L0 24
+R3
+r1
+!s85 0
+31
+R12
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/da_vinci.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/da_vinci.v|
+!s101 -O0
+!i113 1
+R5
+n@d@a_@v@i@n@c@i
+vDA_VINCI_TB
+R0
+!i10b 1
+!s100 :eN]Q;G1jBFoR:Wk`0c`80
+I9NdgcI<Vk_Z7_gOC5TzIY0
+R1
+R2
+w1571853047
+8C:/Users/pansh/Downloads/prj_02/da_vinci_tb.v
+FC:/Users/pansh/Downloads/prj_02/da_vinci_tb.v
+R19
+R3
+r1
+!s85 0
+31
+R4
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/da_vinci_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/da_vinci_tb.v|
+!s101 -O0
+!i113 1
+R5
+n@d@a_@v@i@n@c@i_@t@b
+vMEM_64MB_TB
+R13
+!i10b 1
+!s100 Q0bd^kgMCaH`JYm[fkQkH3
+ITh9;@Jn1mP`eObEK<XWXF2
+R1
+R2
+R11
+8C:/Users/pansh/Downloads/prj_02/mem_64MB_tb.v
+FC:/Users/pansh/Downloads/prj_02/mem_64MB_tb.v
+Z20 L0 23
+R3
+r1
+!s85 0
+31
+R12
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/mem_64MB_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/mem_64MB_tb.v|
+!s101 -O0
+!i113 1
+R5
+n@m@e@m_64@m@b_@t@b
+vMEMORY_64MB
+R13
+!i10b 1
+!s100 :1AFzeFFc3mJn0MoaYcm`3
+I;?OnWg8iRD0^fG32OEY[@1
+R1
+R2
+R11
+8C:/Users/pansh/Downloads/prj_02/memory.v
+FC:/Users/pansh/Downloads/prj_02/memory.v
+Z21 L0 26
+R3
+r1
+!s85 0
+31
+R12
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/memory.v|
+!s101 -O0
+!i113 1
+R5
+n@m@e@m@o@r@y_64@m@b
+vprj_01_tb
+!s110 1570855249
+!i10b 1
+!s100 i1Qc<[?7fo;e:TeclHPB72
+IhYlPf>@<QMgWFo@KQacL11
+R1
+R2
+w1567213560
+R6
+R7
+R21
+R3
+r1
+!s85 0
+31
+!s108 1570855249.000000
+R9
+R10
+!s101 -O0
+!i113 1
+R5
+vPROC_CS147_SEC05
+R13
+!i10b 1
+!s100 j=eEoSW=51>R:Zc<>6jzG0
+IkRziP@gno41[50UdkSM1V0
+R1
+R2
+w1571526068
+8C:/Users/pansh/Downloads/prj_02/processor.v
+FC:/Users/pansh/Downloads/prj_02/processor.v
+R20
+R3
+r1
+!s85 0
+31
+R12
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/processor.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/processor.v|
+!s101 -O0
+!i113 1
+R5
+n@p@r@o@c_@c@s147_@s@e@c05
+vPROC_SM
+R13
+!i10b 1
+!s100 KM:30mYElc_^HGBcETVOX1
+IJdM4QRS;z49z:=o:EgfQH2
+R1
+R2
+R14
+R15
+R16
+L0 376
+R3
+r1
+!s85 0
+31
+R12
+R17
+R18
+!s101 -O0
+!i113 1
+R5
+n@p@r@o@c_@s@m
+vREGISTER_FILE_32x32
+R13
+!i10b 1
+!s100 iOml;EQTcgeEE6ifV4jj23
+Id]hjX1[H_c_IZdkWE33?z2
+R1
+R2
+w1569817228
+8C:/Users/pansh/Downloads/prj_02/register_file.v
+FC:/Users/pansh/Downloads/prj_02/register_file.v
+L0 29
+R3
+r1
+!s85 0
+31
+!s108 1571853272.000000
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/register_file.v|
+!s101 -O0
+!i113 1
+R5
+n@r@e@g@i@s@t@e@r_@f@i@l@e_32x32
+vREGISTER_TB
+R0
+!i10b 1
+!s100 ;RlIg@Z]l2;j6d_fLELfP3
+IGLk`K3^;YzN`E<cA<XnSH1
+R1
+R2
+w1571806179
+8C:/Users/pansh/Downloads/prj_02/register_tb.v
+FC:/Users/pansh/Downloads/prj_02/register_tb.v
+R8
+R3
+r1
+!s85 0
+31
+R4
+!s107 prj_definition.v|C:/Users/pansh/Downloads/prj_02/register_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/pansh/Downloads/prj_02/register_tb.v|
+!s101 -O0
+!i113 1
+R5
+n@r@e@g@i@s@t@e@r_@t@b
